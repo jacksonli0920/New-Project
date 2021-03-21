@@ -5,7 +5,7 @@ I am a junior in high school. In this project, I'm using Convolutional Neural Ne
 I achieved 62% accuracy for the CIFAR-10 class testing data.
 
 
-## Neutral Network Model arichtechture**
+## Neutral Network Model arichtechture
 Convolutional Neural Networks and CIFAR-10
 Convolutional neural networks (CNNs) are class of deep learning frameworks primarily designed to work with image data. The core of a CNN is the convolution layer that performs the convolution operation. In mathematics, convolution is an operation that computes the element-wise dot product of an input matrix and a vector. In a CNN, the input matrix is the two-dimensional image while the vector (filter) is the set of weights. Convolutional neural networks gain their power due to translation invariance (Bengio et al. 341). In other words, if a filter is designed to extract or detect a specific feature in an image, the systematic application of the filter across the image will facilitate the discovery of said feature anywhere in the image. This paper is a report on a project to build an image recognition model using the CIFAR-10 dataset. The focus, however, will be on the methods to improve the accuracy of the machine learning model. 
 CIFAR-10 Dataset
@@ -15,7 +15,8 @@ The Canadian Institute for Advanced Research (CIFAR-10) is a standard dataset us
 
 
 ## How to tune the model
-##### learning rate: Smaller the learning rate the more accurate the return result will be. However could cause overfitting to certain models due to too small of a ##### learning rate.
+##### learning rate
+Smaller the learning rate the more accurate the return result will be. However could cause overfitting to certain models due to too small of a learning rate.
 ##### loss
 ##### batch_size: 
 ##### epoch
