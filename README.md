@@ -1,16 +1,16 @@
-# New-Project
-Final Project111111
+**Image Classification
 
-Introduction
+**Introduction**
+I am a junior in high school. In this project, I'm using Convolutional Neural Network to achieve Image classification.
+I achieved 62% accuracy for the CIFAR-10 class testing data.
 
-Project goal
-What is convolutional nuron network?
-Dataset introduction: cifa10
-pic
 
-Model arichtechture
-Net() ....
+**Neutral Network Model arichtechture**
+explain for each layer
 
+**test data**
+
+**How to tune the model**
 Training setup
 learning rate
 loss
@@ -21,8 +21,6 @@ loss curve
 Evaluation
 accuracy per class
 
-Discussion
-How to improve?
 
 
 Convolutional Neural Networks and CIFAR-10
@@ -32,9 +30,9 @@ The Canadian Institute for Advanced Research (CIFAR-10) is a standard dataset us
 
 
 
-Conclusion 
+**Conclusion**
 This paper is a report on a project to build an image recognition model using the CIFAR-10 dataset. A simple convolutional neural network was written in python with two convolutional layers. The model was trained using 10,000 images from the CIFAR-10 dataset with a constant learning rate of 0.001. The resultant network had an accuracy of 62%. What was found to be very effective in decreasing the learning rate and preventing overshooting.  Increasing the epoch allowed the model to have more training samples and allow for better data collection. Different approaches on how to improve the accuracy of the network were discussed. For instance, dropout regularization could be used, where the neural network drops nodes in a random manner during training. The overall outcome is that the network will be less likely to memorize the training dataset and instead learn the generalizable features. Alternatively, data augmentation could be used, where the programmer makes copies some of the elements in the training datasets then applies small random modification. The outcome is that the network both has a larger training dataset while it is being forced to learn the general features of the training set. Regardless of the method used, the accuracy of the resultant network could be improved. 
 Works Cited
 Bengio, Yoshua, Ian Goodfellow, and Aaron Courville. Deep learning. Vol. 1. Massachusetts, USA:: MIT press, 2017.
-Recht, Benjamin, et al. "Do cifar-10 classifiers generalize to cifar-10?." arXiv preprint arXiv:1806.00451 (2018).
+Recht, Benjamin, et al. "Do cifar-10 classifiers generalize to cifar-10?." arXiv preprint arXiv:1806.00451 (2018)
 
